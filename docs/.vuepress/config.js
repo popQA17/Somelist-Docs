@@ -44,13 +44,13 @@ module.exports = {
             '/guide': [
               {
                 text: 'Guide',
-                children: ['/guide', '/guide/getting-started.md'],
+                children: ['/guide/', '/guide/getting-started.md'],
               }
             ],
               '/support': [
                 {
                   text: 'Support',
-                  children: ['/support'],
+                  children: ['/support/'],
                 },
             ],
           },
