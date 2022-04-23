@@ -32,8 +32,8 @@ module.exports = {
             link: '/guide'
           },
           {
-            text: 'API Reference',
-            link: '/api'
+            text: 'Support',
+            link: '/support'
           },
           {
             text: 'Somelist',
@@ -47,10 +47,10 @@ module.exports = {
                 children: ['/guide', '/guide/getting-started.md'],
               }
             ],
-              '/api': [
+              '/support': [
                 {
-                  text: 'API',
-                  children: ['/api', '/api/examples.md'],
+                  text: 'Support',
+                  children: ['/support'],
                 },
             ],
           },
