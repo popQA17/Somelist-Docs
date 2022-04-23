@@ -29,11 +29,11 @@ module.exports = {
           // NavbarGroup
           {
             text: 'Guide',
-            link: '/guide'
+            link: '/guide/'
           },
           {
             text: 'Support',
-            link: '/support'
+            link: '/support/'
           },
           {
             text: 'Somelist',
