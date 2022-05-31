@@ -24,7 +24,16 @@ export const data = {
   },
   "excerpt": "",
   "headers": [],
-  "git": {},
+  "git": {
+    "updatedTime": 1645542447000,
+    "contributors": [
+      {
+        "name": "popQA17",
+        "email": "christmasng25pop@gmail.com",
+        "commits": 1
+      }
+    ]
+  },
   "filePathRelative": "README.md"
 }
 

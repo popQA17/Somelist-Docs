@@ -5,11 +5,15 @@ export const themeData = {
   "navbar": [
     {
       "text": "Guide",
-      "link": "/guide"
+      "link": "/guide/"
     },
     {
-      "text": "API Reference",
-      "link": "/api"
+      "text": "API",
+      "link": "/api/"
+    },
+    {
+      "text": "Support",
+      "link": "/support/"
     },
     {
       "text": "Somelist",
@@ -21,17 +25,26 @@ export const themeData = {
       {
         "text": "Guide",
         "children": [
-          "/guide",
+          "/guide/",
           "/guide/getting-started.md"
         ]
       }
     ],
     "/api": [
       {
-        "text": "API",
+        "text": "API Reference",
         "children": [
-          "/api",
-          "/api/examples.md"
+          "/api/",
+          "/api/users",
+          "/api/bot"
+        ]
+      }
+    ],
+    "/support": [
+      {
+        "text": "Support",
+        "children": [
+          "/support/"
         ]
       }
     ]

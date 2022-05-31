@@ -19,7 +19,21 @@ export const data = {
       "children": []
     }
   ],
-  "git": {},
+  "git": {
+    "updatedTime": 1650673556000,
+    "contributors": [
+      {
+        "name": "Pop Plays",
+        "email": "85472155+popQA17@users.noreply.github.com",
+        "commits": 2
+      },
+      {
+        "name": "popQA17",
+        "email": "christmasng25pop@gmail.com",
+        "commits": 1
+      }
+    ]
+  },
   "filePathRelative": "guide/getting-started.md"
 }
 
