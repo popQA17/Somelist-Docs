@@ -4,6 +4,7 @@ const routeItems = [
   ["v-8daa1a0e","/",{"title":""},["/index.html","/README.md"]],
   ["v-744497ce","/api/",{"title":"Api Reference"},["/api/index.html","/api/README.md"]],
   ["v-19813140","/api/bot.html",{"title":"Bots"},["/api/bot","/api/bot.md"]],
+  ["v-87dc455a","/api/ratelimits.html",{"title":"Ratelimits"},["/api/ratelimits","/api/ratelimits.md"]],
   ["v-365de61f","/api/users.html",{"title":"Users"},["/api/users","/api/users.md"]],
   ["v-fffb8e28","/guide/",{"title":"Introduction"},["/guide/index.html","/guide/README.md"]],
   ["v-fb0f0066","/guide/getting-started.html",{"title":"Getting Started"},["/guide/getting-started","/guide/getting-started.md"]],

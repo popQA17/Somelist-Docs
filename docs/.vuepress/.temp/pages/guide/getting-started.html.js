@@ -8,15 +8,46 @@ export const data = {
   "headers": [
     {
       "level": 2,
-      "title": "Python Module",
-      "slug": "python-module",
+      "title": "Prerequisites",
+      "slug": "prerequisites",
       "children": []
     },
     {
       "level": 2,
-      "title": "Javascript Module",
-      "slug": "javascript-module",
-      "children": []
+      "title": "Making your first request",
+      "slug": "making-your-first-request",
+      "children": [
+        {
+          "level": 3,
+          "title": "Adding your bot",
+          "slug": "adding-your-bot",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "Your token",
+          "slug": "your-token",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "Python Requests library",
+          "slug": "python-requests-library",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "Javascript Fetch",
+          "slug": "javascript-fetch",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "Jquery AJAX",
+          "slug": "jquery-ajax",
+          "children": []
+        }
+      ]
     }
   ],
   "git": {

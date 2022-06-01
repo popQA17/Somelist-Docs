@@ -52,14 +52,24 @@
 </tr>
 <tr>
 <td>website</td>
-<td>Edit your bot's website URL : null</td>
+<td>Edit your bot's website URL</td>
+<td>null</td>
 <td>false</td>
-<td></td>
+</tr>
+<tr>
+<td>github</td>
+<td>Edit your bot's github Repo</td>
+<td>null</td>
+<td>false</td>
+</tr>
+<tr>
+<td>support</td>
+<td>Edit your bot's support Server</td>
+<td>null</td>
+<td>false</td>
 </tr>
 </tbody>
 </table>
-<h3 id="example-payload" tabindex="-1"><a class="header-anchor" href="#example-payload" aria-hidden="true">#</a> Example Payload</h3>
-<div class="language-json ext-json line-numbers-mode"><pre v-pre class="language-json"><code><span class="token punctuation">{</span>
-    'shortdesc'<span class="token operator">:</span> 'Hello this must be longer than <span class="token number">15</span> characters.'<span class="token punctuation">,</span>
-<span class="token punctuation">}</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div></template>
+<h3 id="encode-it" tabindex="-1"><a class="header-anchor" href="#encode-it" aria-hidden="true">#</a> Encode it!</h3>
+<p>Encode your data (a dictionary) into <code>x-www-form-urlencoded</code>. Your dictionary should be formed like the table above. Addtional keys will be ignored!</p>
+</template>

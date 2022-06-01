@@ -2,10 +2,11 @@ module.exports = {
     // site config
     lang: 'en-US',
     title: 'Somelist Docs',
-    description: 'Explore new, and interesting bots.',
+    description: 'Improve your online presence.',
     // theme and its config
     theme: '@vuepress/theme-default',
     editLink: true,
+    head: [['link', { rel: 'icon', href: '/images/SomelistSecondaryRound.png' }]],
     plugins: [
         '@vuepress/plugin-search',
         {
@@ -56,7 +57,7 @@ module.exports = {
             '/api': [
               {
                 text: 'API Reference',
-                children: ['/api/', '/api/users', '/api/bot'],
+                children: ['/api/', '/api/ratelimits', '/api/users', '/api/bot'],
               },
           ],
             '/support': [

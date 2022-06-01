@@ -17,11 +17,11 @@ The data sent should be serialized into a string. Failure to do so can corrupt y
 | longdesc | Edits the long description of your bot | Must be more than 100 characters | true |
 | prefix | Edit your bot's prefix | null | true |
 | banner | Edit your bot's banner | null | false |
-| invite | Edit your bot's invite URL | Must start with https://discord.com/api/oauth | false |
-| website | Edit your bot's website URL : null | false |
-### Example Payload
-```json
-{
-    'shortdesc': 'Hello this must be longer than 15 characters.',
-}
-```
+| invite | Edit your bot's invite URL | Must start with https://discord.com/api/oauth |false | null |
+| website | Edit your bot's website URL | null | false |
+| github | Edit your bot's github Repo | null | false |
+| support | Edit your bot's support Server | null | false |
+
+
+### Encode it!
+Encode your data (a dictionary) into `x-www-form-urlencoded`. Your dictionary should be formed like the table above. Addtional keys will be ignored!

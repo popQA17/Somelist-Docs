@@ -25,16 +25,22 @@ export const data = {
         },
         {
           "level": 3,
-          "title": "Example Payload",
-          "slug": "example-payload",
+          "title": "Encode it!",
+          "slug": "encode-it",
           "children": []
         }
       ]
     }
   ],
   "git": {
-    "updatedTime": null,
-    "contributors": []
+    "updatedTime": 1653978535000,
+    "contributors": [
+      {
+        "name": "Pop Plays",
+        "email": "85472155+popQA17@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "filePathRelative": "api/bot.md"
 }

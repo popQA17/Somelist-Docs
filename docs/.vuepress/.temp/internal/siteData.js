@@ -2,8 +2,16 @@ export const siteData = {
   "base": "/",
   "lang": "en-US",
   "title": "Somelist Docs",
-  "description": "Explore new, and interesting bots.",
-  "head": [],
+  "description": "Improve your online presence.",
+  "head": [
+    [
+      "link",
+      {
+        "rel": "icon",
+        "href": "/images/SomelistSecondaryRound.png"
+      }
+    ]
+  ],
   "locales": {}
 }
 

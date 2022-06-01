@@ -35,6 +35,7 @@ export const themeData = {
         "text": "API Reference",
         "children": [
           "/api/",
+          "/api/ratelimits",
           "/api/users",
           "/api/bot"
         ]
